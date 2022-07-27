@@ -1,0 +1,227 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+}
+.container{
+ width: 80%;
+ margin: auto;
+ overflow: hidden;
+}
+.navbar{
+    background-color: white;
+    color: black;
+    padding-top: 20px;
+    min-height: 70px;
+    border-bottom: #00b4d8 4px solid;
+    height: 100%;
+}
+
+.logo{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.navbar .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.navbar li{
+    list-style-type: none;
+    padding-right: 30px;
+    display: inline;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: #00b4d8;
+    font-size: 1rem;
+}
+span{
+    color: #00b4d8;
+}
+
+.showcase{
+    min-height: 700px;
+    color: white;
+    text-align: center;
+    padding-top: 150px;
+   background: url(../images/dentist-female.jpg) no-repeat -1200px ;
+    
+}
+
+.newsletter{
+    min-height: 100px;
+    background-color: #00b4d8;
+    color: white;
+    height: 100%;
+}
+.background{
+    background-image: url(../images/male-doctor.jpg);
+    background-repeat: no-repeat;
+    background-position: cover;
+    height: 100%;
+    min-height: 500px;
+    background-position: -1500px -100px;
+}
+
+}
+input[type='text']{
+    width: 70%;
+}
+.card{
+    border-radius: 5%;
+    color: white;
+    font-size: larger;
+    background-color: #00b4d8;
+    width: 40%;
+    height: 80%;
+    padding: 20px 20px;
+}
+.newsletter h3{
+    float: left;
+    margin-top: 40px;
+    font-size: 22px;
+}
+
+.newsletter form{
+    float: right;
+}
+
+.newsletter input[type='email'] {
+    width: 250px;
+    margin-top: 40px;
+    height: 30px;
+}
+
+.card button{
+    margin-top: 5px;
+    color: white;
+    width: 90px;
+    height: 35px;
+    background-color: red;
+    border: none;
+    border-radius: 10%;
+}
+.card button:hover{
+    transition: all;
+    color: black;
+    transition-duration: 0.5s;
+    background-color: white;
+    border: 1px solid black;  
+}
+
+.newsletter button{
+    color: white;
+    width: 90px;
+    height: 35px;
+    background-color: red;
+    border: none;
+    border-radius: 10%;
+}
+
+.newsletter button:hover{
+    transition: all;
+    color: black;
+    transition-duration: 0.5s;
+    background-color: white;
+    border: 1px solid black;
+}
+
+#boxes{
+    margin: 20px;
+}
+
+#boxes .box{
+    float: left;
+    width: 30%;
+    text-align: center;
+}
+
+
+footer{
+    background-color: #00b4d8;
+    color: white;
+    text-align: center;
+    font-size: 17px;
+    height: 60px;
+    padding-top: 15px;
+}
+
+/*Services Styling*/
+
+.main-text{
+    float: left;
+    width: 70%;
+}
+
+.dark{
+    float: right;
+    width: 30%;
+    background-color: #00b4d8;
+    color: white;
+    padding: 20px 20px;
+}
+
+/*Services page*/
+
+.content{
+    padding-top: 40px;
+    float: left;
+    width: 60%;
+    
+}
+.quote input[type='text'] {
+    width: 90%;
+    height: 35px;
+}
+.quote input[type='email'] {
+    width: 90%;
+    height: 35px;
+}
+.Btn2{
+    width: 60%;
+    height: 30px;
+    border: none;
+    background-color: #00b4d8;
+    color: white;
+}
+button{
+    text-align: center;
+}
+a:hover{
+    text-decoration: 3px underline #00b4d8 solid;
+}
+
+/*Media Queries*/
+
+@media(max-width: 768px) {
+    header .navbar,
+    header ul li,
+    header,
+    .newsletter{
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+    .newsletter h3,
+    .newsletter form,
+    #boxes .box,
+    #boxes .content,
+    .main-text h1,
+    form .quote{
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+   
+}
