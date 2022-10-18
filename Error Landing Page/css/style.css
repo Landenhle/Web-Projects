@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Comforter+Brush&family=Poppins:wght@100&family=Rock+Salt&display=swap');
+
+body {
+    height: 100vh;
+     background: linear-gradient(90deg,#e52e71,#ff8a00);
+  
+  }
+  
+  .slider-thumb::before {
+      position: absolute;
+      content: "";
+      left: 60%;
+      top: 20%;
+      width: 450px;
+      height: 450px;
+      background: linear-gradient(60deg, #ff006e , #fb5607  );
+      border-radius: 62% 47% 82% 35% / 45% 45% 80% 66%;
+      will-change: border-radius, transform, opacity;
+      animation: sliderShape 5s linear infinite;
+      display: block;
+      z-index: -1;
+      -webkit-animation: sliderShape 5s linear infinite;
+  }
+  @keyframes sliderShape{
+    0%,100%{
+    border-radius: 42% 58% 70% 30% / 45% 45% 55% 55%;
+      transform: translate3d(0,0,0) rotateZ(0.01deg);
+    }
+    34%{
+        border-radius: 70% 30% 46% 54% / 30% 29% 71% 70%;
+      transform:  translate3d(0,5px,0) rotateZ(0.01deg);
+    }
+    50%{
+      transform: translate3d(0,0,0) rotateZ(0.01deg);
+    }
+    67%{
+      border-radius: 100% 60% 60% 100% / 100% 100% 60% 60% ;
+      transform: translate3d(0,-3px,0) rotateZ(0.01deg);
+    }
+  }
+
+.heading{
+    font-size: 80px;
+    color: white;
+    font-family: 'Comforter Brush';
+    text-decoration: underline 5px;
+}
+
+.heading-text{
+    font-size: 80px;
+    color: white;
+    font-family: 'Comforter Brush';
+    
+}
+
+
+.showcase{
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+  
