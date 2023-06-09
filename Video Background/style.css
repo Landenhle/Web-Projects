@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz@6..96&family=Cinzel&family=Comforter+Brush&family=Cormorant+Garamond:wght@300;500;700&family=Poppins:wght@100;300;500&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.container{
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+}
+
+body{
+    background-color: black;
+    color: white;
+}
+
+.showcase{
+    position: relative;
+    padding: 2rem;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.35);
+}
+
+.btn{
+    margin: 2rem 0;
+    padding: 1rem;
+    border: 2px solid white;
+    border-radius: 30px;
+    text-align: center;
+}
+
+.bg-video{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: -1;
+    transform: translate(-50%, -50%);
+}
